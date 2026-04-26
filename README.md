@@ -1,4 +1,4 @@
-# MediRoute: Symptom-Based Doctor Appointment & Routing System
+Full Stack Project# MediRoute: Symptom-Based Doctor Appointment & Routing System
 
 A full-stack MERN application that intelligently routes patients to appropriate medical specialists based on their symptoms and enables seamless appointment booking.
 
