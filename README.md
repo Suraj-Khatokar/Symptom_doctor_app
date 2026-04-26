@@ -148,6 +148,6 @@ The system uses a predefined symptom database to route patients:
 - The symptom-to-specialty mapping is rule-based and can be extended
 - Pure CSS is used for styling to demonstrate CSS proficiency without framework dependencies
 
----
+
 
 
