@@ -150,5 +150,4 @@ The system uses a predefined symptom database to route patients:
 
 ---
 
-**Project Type**: Academic MERN Stack Application  
-**Course**: BCS304 - Data Structures & Applications
+
