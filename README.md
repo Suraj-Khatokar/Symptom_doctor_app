@@ -1,8 +1,8 @@
-Full Stack Project# MediRoute: Symptom-Based Doctor Appointment & Routing System
+Full Stack Project MediRoute: Symptom-Based Doctor Appointment & Routing System
 
 A full-stack MERN application that intelligently routes patients to appropriate medical specialists based on their symptoms and enables seamless appointment booking.
 
-## 🎯 Project Overview
+##  Project Overview
 
 MediRoute addresses the common problem of patients not knowing which medical specialist to consult for their symptoms. The application provides:
 
@@ -11,7 +11,7 @@ MediRoute addresses the common problem of patients not knowing which medical spe
 - **Appointment Management**: Book, view, and cancel appointments with form validation
 - **Responsive Interface**: Clean, intuitive UI built with modern React practices
 
-## 🏗 Architecture
+##  Architecture
 
 ### Frontend (React)
 - **Component-Based Design**: Reusable, modular React components (Navbar, DoctorCard, StepIndicator)
@@ -31,7 +31,7 @@ MediRoute addresses the common problem of patients not knowing which medical spe
 - **Schema Design**: Normalized structures with proper relationships
 - **Seeding**: Sample data for testing and demonstration
 
-## 📋 Course Module Coverage
+##  Course Module Coverage
 
 | Module | Topic | Implementation |
 |--------|-------|-----------------|
@@ -41,7 +41,7 @@ MediRoute addresses the common problem of patients not knowing which medical spe
 | **Module 4** | State & APIs | useState/useEffect hooks, Axios API integration, Express routes |
 | **Module 5** | Database & Architecture | Mongoose schemas, modular route/controller structure |
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 symptom-doctor-app/
@@ -84,7 +84,7 @@ symptom-doctor-app/
 └── README.md
 ```
 
-## 🩺 Symptom-to-Specialty Mapping
+##  Symptom-to-Specialty Mapping
 
 The system uses a predefined symptom database to route patients:
 
@@ -100,7 +100,7 @@ The system uses a predefined symptom database to route patients:
 | Anxiety, depression, insomnia | Psychiatrist |
 | Fever, cough, fatigue, cold | General Physician |
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Symptoms
 - `GET /api/symptoms` - Retrieve all available symptoms
@@ -122,7 +122,7 @@ The system uses a predefined symptom database to route patients:
 - `PUT /api/appointments/:id` - Update appointment details
 - `DELETE /api/appointments/:id` - Cancel appointment
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -131,7 +131,7 @@ The system uses a predefined symptom database to route patients:
 | **Database** | MongoDB, Mongoose |
 | **Styling** | Pure CSS (custom design, no frameworks) |
 
-## ✨ Key Features
+##  Key Features
 
 - **Smart Routing Algorithm**: Matches patient symptoms to appropriate specialties
 - **Doctor Filtering**: Search and filter doctors by specialty
@@ -141,7 +141,7 @@ The system uses a predefined symptom database to route patients:
 - **Sample Data Seeding**: Pre-populated doctors for demonstration
 - **Responsive Design**: Works across different screen sizes
 
-## 📝 Notes
+##  Notes
 
 - The application includes comprehensive form validation at both frontend and backend levels
 - Sample doctors are seeded via the UI for demonstration purposes
