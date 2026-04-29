@@ -111,18 +111,24 @@ const BookAppointment = () => {
         </div>
       )}
 
-      <div className="symptom-grid">
-        {allSymptoms.map((symptom) => (
-          <label key={symptom} className={`symptom-checkbox ${selectedSymptoms.includes(symptom) ? "selected" : ""}`}>
-            <input
-              type="checkbox"
-              checked={selectedSymptoms.includes(symptom)}
-              onChange={() => handleSymptomToggle(symptom)}
-            />
-            {symptom}
-          </label>
-        ))}
-      </div>
+
+<div className="symptom-grid">
+  {allSymptoms?.map((symptom) => (
+    <label
+      key={symptom}
+      className={`symptom-checkbox ${
+        selectedSymptoms.includes(symptom) ? "selected" : ""
+      }`}
+    >
+      <input
+        type="checkbox"
+        checked={selectedSymptoms.includes(symptom)}
+        onChange={() => handleSymptomToggle(symptom)}
+      />
+      {symptom}
+    </label>
+  ))}
+</div>
 
       {error && <div className="alert alert-error" style={{ marginTop: "1.25rem" }}>{error}</div>}
 
